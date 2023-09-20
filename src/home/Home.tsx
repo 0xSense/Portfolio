@@ -1,9 +1,12 @@
 import './Home.css';
 
+// Main: file for routing information/data
 const Home = () => {
   return (
     <>
-      <div className={"HomeElement"}>Home</div>
+      <div className={"homeelement"}>
+        
+      </div>
     </>
   )
 }

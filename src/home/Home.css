@@ -1,8 +1,11 @@
+/* styling for parent level */
+@import '../style/mixins/_variables.scss';
+
 #root {
   width: 100%;
   height: 100%;
 }
 
-.HomeElement {
-  background-color: aqua;
+.homeelement {
+  background-color: $main-page-color;
 }
