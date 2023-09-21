@@ -1,0 +1,1 @@
+import React as * from  'react'

@@ -1,14 +1,15 @@
-import './Home.css';
+import * as React from 'react';
+import './Home.scss';
 
-// Main: file for routing information/data
 const Home = () => {
   return (
     <>
-      <div className={"homeelement"}>
-        
+      <div className={"homElement"}>
+        <div>Initial Page</div>
+    
       </div>
     </>
-  )
-}
+  );
+};
 
 export default Home;
