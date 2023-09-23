@@ -1,0 +1,10 @@
+@import '../../style/variables';
+
+.BannerWrapper {
+  color: $brand-black;
+  background-color: $main-page-color;
+  width: 100%;
+  height: 420px;
+  margin: 5px 5px 32px 32px;
+  border-radius: 8px;
+}
