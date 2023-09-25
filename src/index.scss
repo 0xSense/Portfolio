@@ -1,9 +1,16 @@
-@import './style/variables.scss';
+@import './style/style.scss';
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: url('./fonts/Roboto/roboto-regular-webfont.woff2') format('woff2')
+       url('./fonts/Roboto/roboto-regular-webfont.woff') format('woff')
+}
 
 body {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: normal;
   color-scheme: light dark;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -12,6 +19,7 @@ body {
   -webkit-text-size-adjust: 100%;
   margin: 0;
   display: flex;
-  min-width: 100%;
+  flex-direction: column;
+  min-width: 100vw;
   min-height: 100vh;
 }

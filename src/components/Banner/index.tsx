@@ -4,7 +4,7 @@ import './index.scss';
 const Banner = () => {
   return (
     <div className={"BannerWrapper"}>
-      Banner
+      <div>Nicholas Ashley</div>
     </div>
   );
 };

@@ -1,13 +1,17 @@
 import * as React from 'react';
 import Banner from '../components/Banner/index.tsx';
 import Card from '../components/Card/index.tsx';
+import Footer from '../components/Footer/index.tsx';
 import './App.scss';
 
 const App = () => {
   return (
     <>
-      <Banner />
-      <Card />
+      <div className={"AppComponent"}>
+        <Banner />
+        <Card />
+        <Footer />
+      </div>
     </>
   );
 };

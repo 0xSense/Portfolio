@@ -1,8 +1,20 @@
 import * as react from 'react';
+import './index.scss'
 
 const Card = () => {
   return(
-    <div>Card</div>
+    <div className={"CardWrapper"}>
+      <div>Card image here</div>
+      <div>
+        <title>Project name</title>
+        <div>
+          github repo icon + the link
+        </div>
+        <div>
+          Hosted Website
+        </div>
+      </div>
+    </div>
   )
 }
 
