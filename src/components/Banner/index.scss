@@ -13,11 +13,12 @@
 .TopBar {
   background: linear-gradient(180deg, rgba(19, 19, 19, 0.719), rgba(19, 19, 19, 0.719), transparent);
   color: white;
-  height: 10%;
+  height: 20%;
 }
 
 .ParentOfBannerElements {
   color: white;
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
 }
