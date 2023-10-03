@@ -2,4 +2,7 @@
 
 .CardWrapper {
   color: $brand-black;
-}
+  background-color: $test-component-color;
+  margin: 5px;
+  border-radius: 8px;
+};

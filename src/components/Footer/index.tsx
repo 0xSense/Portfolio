@@ -6,7 +6,7 @@ const Footer = () => {
     <div className={"FooterWrapper"}>
       Footer
     </div>
-  )
-}
+  );
+};
 
 export default Footer;
