@@ -5,7 +5,7 @@ export const arrayOfProjectCards: CardInfo[] = [
     id: 0,
     repoURL: "www.here.com",
     technologyUsedList: ["React", "Typescript", "MongoDB"],
-    projectSummary: "This is the most innovative proejct of the 21 century"
+    projectSummary: "This is the most innovative project of the 21 century"
   }
 ];
 
