@@ -11,11 +11,15 @@
   },
   "dependencies": {
     "@react-spring/web": "^9.7.3",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
     "moment": "^2.29.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.16.0",
-    "sass": "^1.67.0"
+    "react-router-dom": "^6.16.0",
+    "sass": "^1.67.0",
+    "sort-by": "^1.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.14",

@@ -1,21 +1,18 @@
-import * as react from 'react';
-import './index.scss'
+import * as React from 'react';
+import CardPhoto from '../../assets/pexels-karolina-grabowska-resized.png';
+import './index.scss';
 
 const Card = () => {
   return(
     <div className={"CardWrapper"}>
-      <div>Card image here</div>
-      <div>
-        <title>Project name</title>
-        <div>
-          github repo icon + the link
-        </div>
-        <div>
-          Hosted Website
-        </div>
+      <div className={"CardPhotoSection"}>
+        <img src={CardPhoto} alt="Card Photo" />
+      </div>
+      <div className={"CardBottomSection"}>
+        Summary Text
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Card;

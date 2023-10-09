@@ -1,15 +1,19 @@
 import * as React from 'react';
+import { bannerElements } from '../../constants';
+import { BannerButtons } from '../../types';
 import './index.scss';
+
 
 const Banner = () => {
   return (
     <div className={"BannerWrapper"}>
-      <div>Nicholas Ashley</div>
-      <br />
-      <div>About Me</div>
-      <div>Resume</div>
-      <div>Projects</div>
-      <div>skills</div>
+      <div className={"TopBar"}>
+        <div className={"ParentOfBannerElements"}>
+          {bannerElements.map((element: BannerButtons) => (
+            <div key={element.id}>{element.title}</div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
