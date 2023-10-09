@@ -1,4 +1,3 @@
-import * as React from 'react';
 import CardPhoto from '../../assets/pexels-karolina-grabowska-resized.png';
 import './index.scss';
 
