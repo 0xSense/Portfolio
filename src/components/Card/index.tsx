@@ -1,14 +1,14 @@
-import CardPhoto from '../../assets/pexels-karolina-grabowska-resized.png';
 import './index.scss';
 
 const Card = () => {
   return(
     <div className={"CardWrapper"}>
       <div className={"CardPhotoSection"}>
-        <img src={CardPhoto} alt="Card Photo" />
+        <img alt="Project Photo" />
       </div>
       <div className={"CardBottomSection"}>
-        Summary Text
+        <div>Project Title</div>
+        <div>Technologies</div> 
       </div>
     </div>
   );

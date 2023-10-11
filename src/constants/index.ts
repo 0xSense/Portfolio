@@ -16,18 +16,14 @@ export const bannerElements: BannerButtons[] = [
   },
   {
     id: 1,
-    title: "About Me",
+    title: "About",
   },
   {
     id: 2,
-    title: "Resume",
+    title: "Portfolio",
   },
   {
     id: 3,
-    title: "Projects",
+    title: "Resume",
   },
-  {
-    id: 4,
-    title: "Skills",
-  }
 ];

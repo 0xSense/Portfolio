@@ -3,17 +3,21 @@
 .CardWrapper {
   color: $brand-black;
   background-color: $brand-grey;
-  background-size: contain;
+  border-radius: 8px;
+  height: 200px;
+  width: 300px;
   margin: auto;
   display: flex;
+  flex-direction: column;
 };
 
 .CardPhotoSection {
-  width: 100%;
-  height: 100%;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  height: 200px;
+  background-color: $component-testing-color;
 }
 
 .CardBottomSection {
-  width: 100%;
-  height: 100%;
+
 }
