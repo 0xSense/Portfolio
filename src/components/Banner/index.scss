@@ -1,0 +1,24 @@
+@import '../../style/style.scss';
+
+.BannerWrapper {
+  color: $brand-white;
+  background-color: $brand-black;
+  background-image: url("../../assets/Banner-image.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 420px;
+}
+
+.TopBar {
+  background: linear-gradient(180deg, rgba(19, 19, 19, 0.719), rgba(19, 19, 19, 0.719), transparent);
+  color: white;
+  height: 20%;
+}
+
+.ParentOfBannerElements {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

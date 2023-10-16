@@ -1,0 +1,19 @@
+@import '../../style/variables.scss';
+
+.CardWrapper {
+  color: $brand-black;
+  background-color: $brand-grey;
+  background-size: contain;
+  margin: auto;
+  display: flex;
+};
+
+.CardPhotoSection {
+  width: 100%;
+  height: 100%;
+}
+
+.CardBottomSection {
+  width: 100%;
+  height: 100%;
+}
