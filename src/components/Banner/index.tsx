@@ -1,8 +1,6 @@
-import * as React from 'react';
 import { bannerElements } from '../../constants';
 import { BannerButtons } from '../../types';
 import './index.scss';
-
 
 const Banner = () => {
   return (
