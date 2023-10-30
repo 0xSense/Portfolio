@@ -1,15 +1,19 @@
 import './index.scss';
 
-const Card = () => {
+import { CardInfo } from '../../types';
+
+const Card = (props: CardInfo) => {
   return(
     <div className={"CardWrapper"}>
-      <div className={"CardPhotoSection"}>
-        <img alt="Project Photo" />
-      </div>
-      <div className={"CardBottomSection"}>
-        <div>Project Title</div>
-        <div>Technologies</div> 
-      </div>
+        <div>
+          <div className={"CardPhotoSection"}>
+            <img alt="Project Photo" src={props.repoURL} />
+          </div>
+          <div className={"CardBottomSection"}>
+            <div>{props.ProjectTitle}</div>
+            <div>{props.technologyUsedList}</div>
+          </div>
+        </div>
     </div>
   );
 };

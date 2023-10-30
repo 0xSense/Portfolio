@@ -18,7 +18,9 @@
 
 .ParentOfBannerElements {
   color: white;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  padding-top: 10px;;
+  margin-left: 10px;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
   justify-content: space-around;
 }

@@ -6,7 +6,6 @@
   border-radius: 8px;
   height: 200px;
   width: 300px;
-  margin: auto;
   display: flex;
   flex-direction: column;
 };
@@ -19,5 +18,7 @@
 }
 
 .CardBottomSection {
-
+  background-color: $brand-white;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
 }

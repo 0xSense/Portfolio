@@ -1,8 +1,10 @@
 @import '../../style/style.scss';
 
 .FooterWrapper {
-  display: flex;
-  justify-content: center;
   width: 100%;
   height: 10%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
