@@ -4,6 +4,7 @@ import './index.scss';
 
 
 const Banner = () => {
+
   return (
     <div className={"BannerWrapper"}>
       <div className={"TopBar"}>

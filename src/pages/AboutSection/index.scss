@@ -1,0 +1,22 @@
+.AboutWrapper {
+  margin-left: 10px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 1000px;
+}
+
+.PhotoGoesHere {
+  border-radius: 50%;
+  border-style: solid;
+  height: 100px;
+  width: 100px;
+}
+
+.Header {
+  color: white;
+}
+
+.AboutDescription {
+  color: white;
+  width: 400px;
+}
