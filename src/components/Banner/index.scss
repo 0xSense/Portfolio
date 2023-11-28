@@ -40,10 +40,10 @@
 
 .Animation {
   width: 50px;
-    height: 3px;
-    background-color: #fff;
-    margin: 0 auto;
-    animation: stretch 1s infinite alternate;
+  height: 3px;
+  background-color: #fff;
+  margin: 40% auto;
+  animation: stretch 1s infinite alternate;
 }
 
 @keyframes stretch {
