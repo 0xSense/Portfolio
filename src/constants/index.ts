@@ -12,22 +12,14 @@ export const arrayOfProjectCards: CardInfo[] = [
 export const bannerElements: BannerButtons[] = [
   {
     id: 0,
-    title: "Nicholas Ashley",
-  },
-  {
-    id: 1,
     title: "About Me",
   },
   {
-    id: 2,
+    id: 1,
     title: "Resume",
   },
   {
-    id: 3,
+    id: 2,
     title: "Projects",
   },
-  {
-    id: 4,
-    title: "Skills",
-  }
 ];

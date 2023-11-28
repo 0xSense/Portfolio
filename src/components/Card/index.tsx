@@ -7,9 +7,10 @@ const Card = () => {
       <div className={"CardPhotoSection"}>
         <img src={CardPhoto} alt="Card Photo" />
       </div>
-      <div className={"CardBottomSection"}>
-        Summary Text
+      <div className={"CardTextSection"}>
+        Repo Name
       </div>
+      <button className={"CardButton"}>Learn More</button>
     </div>
   );
 };
