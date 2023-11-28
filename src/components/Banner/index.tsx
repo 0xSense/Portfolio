@@ -6,7 +6,7 @@ const Banner = () => {
   return (
     <div className={"BannerWrapper"}>
       <div className={"TopBar"}>
-        <h1 className={"DeveloperName"}>Nicholas Ashley</h1>
+        <div className={"DeveloperName"}>Nicholas Ashley</div>
         <p className={"Title"}>Software Engineer</p>
         <p className={"Description"}> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quos, vel, iste neque, libero totam doloribus voluptatem eligendi nulla earum maxime ea? Ratione nobis fuga maxime repellat quam impedit rerum!</p>
         <div className={"Animation"}></div>

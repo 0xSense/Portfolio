@@ -2,17 +2,18 @@
 
 .BannerWrapper {
   color: $brand-white;
-  background-color: $brand-black;
+  background-color: $brand-grey;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
-  height: 420px;
+  height: 100vh;
 }
 
 .TopBar {
   background: linear-gradient(180deg, rgba(19, 19, 19, 0.719), rgba(19, 19, 19, 0.719), transparent);
-  color: white;
+  color: green($color: #000000);
   height: 20%;
+  position: sticky;
 }
 
 .ParentOfBannerElements {
