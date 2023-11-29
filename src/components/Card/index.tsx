@@ -1,19 +1,16 @@
+import CardPhoto from '../../assets/pexels-karolina-grabowska-resized.png';
 import './index.scss';
 
-import { CardInfo } from '../../types';
-
-const Card = (props: CardInfo) => {
+const Card = () => {
   return(
     <div className={"CardWrapper"}>
-        <div>
-          <div className={"CardPhotoSection"}>
-            <img alt="Project Photo" src={props.repoURL} />
-          </div>
-          <div className={"CardBottomSection"}>
-            <div>{props.ProjectTitle}</div>
-            <div>{props.technologyUsedList}</div>
-          </div>
-        </div>
+      <div className={"CardPhotoSection"}>
+        <img src={CardPhoto} alt="Card Photo" />
+      </div>
+      <div className={"CardTextSection"}>
+        Repo Name
+      </div>
+      <button className={"CardButton"}>Learn More</button>
     </div>
   );
 };

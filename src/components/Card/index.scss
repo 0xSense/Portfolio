@@ -1,24 +1,43 @@
 @import '../../style/variables.scss';
 
 .CardWrapper {
-  color: $brand-black;
-  background-color: $brand-grey;
-  border-radius: 8px;
-  height: 200px;
-  width: 300px;
+  color: $theme-white;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  background-size: contain;
+  margin: auto;
   display: flex;
   flex-direction: column;
+  margin-right: 20px;
 };
 
-.CardPhotoSection {
-  border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-  height: 200px;
-  background-color: $component-testing-color;
+.CardWrapper:hover {
+  transform: scale(1.05);
+  cursor: pointer;
 }
 
-.CardBottomSection {
-  background-color: $brand-white;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+.CardPhotoSection {
+  width: 100%;
+  height: 100%;
+}
+
+.CardTextSection {
+  width: 100%;
+  height: 100%;
+}
+
+.CardButton {
+  display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    background-color: #e74c3c;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
 }

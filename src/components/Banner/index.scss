@@ -1,26 +1,57 @@
 @import '../../style/style.scss';
 
 .BannerWrapper {
-  color: $brand-white;
-  background-color: $brand-black;
-  background-image: url("../../assets/Banner-image.jpg");
+  color: $theme-white;
+  background-color: $main-theme-color;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
-  height: 420px;
+  height: 100vh;
 }
 
 .TopBar {
   background: linear-gradient(180deg, rgba(19, 19, 19, 0.719), rgba(19, 19, 19, 0.719), transparent);
-  color: white;
+  color: green($color: #000000);
   height: 20%;
+  position: sticky;
 }
 
 .ParentOfBannerElements {
-  color: white;
-  display: grid;
-  padding-top: 10px;;
-  margin-left: 10px;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  color: $theme-grey;
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
+}
+
+.DeveloperName {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.Title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.Description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.Animation {
+  width: 50px;
+  height: 3px;
+  background-color: $theme-white;
+  margin: 40% auto;
+  animation: stretch 1s infinite alternate;
+}
+
+@keyframes stretch {
+  0% {
+    width: 50px;
+  }
+
+  100% {
+    width: 100px;
+  }
 }

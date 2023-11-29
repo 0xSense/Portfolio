@@ -1,9 +1,9 @@
+import Banner from '../components/Banner/index';
+import AboutMe from '../components/AboutMe';
+import Resume from '../components/Resume';
+import Projects from '../components/Projects';
 import { Outlet } from 'react-router-dom';
 import './root.scss';
-import Banner from '../components/Banner/index';
-import Footer from '../components/Footer/index';
-import Carousel from '../pages/Carousel';
-import About from '../pages/AboutSection';
 
 export default function Root() {
   return (
@@ -11,10 +11,11 @@ export default function Root() {
       <div className={"AppComponent"}>
         <Banner />
         <div className={"CenterComponent"}>
-          <About />
-          <Carousel />
+          <AboutMe />
+          <Resume />
+          <Projects />
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
       <div id="detail">
         <Outlet />
