@@ -1,5 +1,6 @@
 export type CardInfo = {
   id: number,
+  ProjectTitle: string,
   repoURL: string,
   technologyUsedList: string[];
   projectSummary: string;
