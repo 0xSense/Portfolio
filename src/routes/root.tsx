@@ -1,6 +1,4 @@
 import Banner from '../components/Banner/index';
-import Card from '../components/Card/index';
-import Footer from '../components/Footer/index';
 import AboutMe from '../components/AboutMe';
 import Resume from '../components/Resume';
 import Projects from '../components/Projects';

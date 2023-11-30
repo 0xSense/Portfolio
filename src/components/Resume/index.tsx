@@ -1,3 +1,5 @@
+import React from 'react';
+
 const Resume = () => {
     return(
         <div className="ResumeWrapper">
@@ -10,7 +12,6 @@ const Resume = () => {
                 height="800"
                 className="ResumePDF"
             >
-
             </object>
         </div>
     );

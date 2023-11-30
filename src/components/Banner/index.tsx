@@ -1,5 +1,4 @@
-import { bannerElements } from '../../constants';
-import { BannerButtons } from '../../types';
+import React from 'react';
 import './index.scss';
 
 const Banner = () => {
@@ -8,13 +7,10 @@ const Banner = () => {
       <div className={"TopBar"}>
         <div className={"DeveloperName"}>Nicholas Ashley</div>
         <p className={"Title"}>Software Engineer</p>
-        <p className={"Description"}> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam quos, vel, iste neque, libero totam doloribus voluptatem eligendi nulla earum maxime ea? Ratione nobis fuga maxime repellat quam impedit rerum!</p>
+        <p className={"Description"}> 
+           Software Engineer who loves playing video games, working out and coding. 
+        </p>
         <div className={"Animation"}></div>
-        {/* <div className={"ParentOfBannerElements"}>
-          {bannerElements.map((element: BannerButtons) => (
-            <div key={element.id}>{element.title}</div>
-          ))}
-        </div> */}
       </div>
     </div>
   );
