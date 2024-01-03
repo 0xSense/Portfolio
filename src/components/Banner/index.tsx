@@ -8,7 +8,8 @@ const Banner = () => {
         <div className={"DeveloperName"}>Nicholas Ashley</div>
         <p className={"Title"}>Software Engineer</p>
         <p className={"Description"}> 
-           Software Engineer who loves playing video games, working out and coding. 
+           Software Engineer who loves playing video games, working out and coding. <br></br>
+           Currently mostly coding with Typescript and Rust!
         </p>
         <div className={"Animation"}></div>
       </div>

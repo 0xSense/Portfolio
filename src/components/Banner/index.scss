@@ -6,7 +6,10 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
-  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
 }
 
 .TopBar {
@@ -14,6 +17,7 @@
   color: green($color: #000000);
   height: 20%;
   position: sticky;
+  padding-left: 10px;
 }
 
 .ParentOfBannerElements {
