@@ -20,14 +20,18 @@ export const arrayOfProjectCards: CardInfo[] = [
 export const bannerElements: BannerButtons[] = [
   {
     id: 0,
-    title: "About Me",
+    title: "Scale GameJam",
+    url: "https://github.com/0xSense/Scale"
+
   },
   {
     id: 1,
-    title: "Resume",
+    title: "Archi",
+    url: "https://github.com/0xSense/Archi"
   },
   {
     id: 2,
-    title: "Projects",
+    title: "Portfolio",
+    url: "https://github.com/0xSense/Portfolio"
   },
 ];

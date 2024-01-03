@@ -9,4 +9,5 @@ export type CardInfo = {
 export type BannerButtons  = {
   id: number,
   title: string,
+  url: string
 }

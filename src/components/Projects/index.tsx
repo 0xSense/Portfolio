@@ -2,6 +2,7 @@ import Card from "../Card";
 import { bannerElements } from "../../constants";
 import './index.scss';
 import { BannerButtons } from "../../types";
+import React from "react";
 
 const Projects = () => {
     return (
@@ -9,7 +10,10 @@ const Projects = () => {
             <h1>Projects</h1>
             <div className="ProjectCardWrapper">
                 {bannerElements.map((element: BannerButtons) => (
-                    <Card />
+                    <Card 
+                        title={element.title}
+                        key={element.id}
+                    />
                 ))}
             </div>
         </div>
