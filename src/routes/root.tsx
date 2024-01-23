@@ -1,6 +1,4 @@
 import Banner from '../components/Banner/index';
-import Card from '../components/Card/index';
-import Footer from '../components/Footer/index';
 import AboutMe from '../components/AboutMe';
 import Resume from '../components/Resume';
 import Projects from '../components/Projects';
@@ -11,16 +9,18 @@ export default function Root() {
   return (
     <>
       <div className={"AppComponent"}>
-        <Banner />
-        <div className={"CenterComponent"}>
-          <AboutMe />
-          <Resume />
-          <Projects />
+        <div className={"banner"}>
+          <div id="DeveloperName" >
+              Nicholas Ashley
+          </div>
+          
+          <div className={"DropIcon"}>
+            <img src="src/assets/icons8-hamburger-50.png">
+
+            </img>
+          </div>
+          
         </div>
-        {/* <Footer /> */}
-      </div>
-      <div id="detail">
-        <Outlet />
       </div>
     </>
   );
