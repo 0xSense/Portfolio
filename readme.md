@@ -1,8 +1,7 @@
-# Typescript React application (Portfolio)
+# Portfolio
 
-> [!NOTE]
 
-## How do I start the application?
+## Installation
 
 ```
 
@@ -10,9 +9,3 @@
   npm run dev
   
 ```
-
-> [!NOTE]
-
-## src
-
-Houses the 'source' application. Information for visual , logical and networking data.
