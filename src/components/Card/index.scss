@@ -1,7 +1,7 @@
 @import '../../style/variables.scss';
 
 .CardWrapper {
-  color: $theme-white;
+  color: $theme-blue;
   background-color: #fff;
   transition: transform 0.3s ease-in-out;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -11,6 +11,7 @@
   margin: auto;
   display: flex;
   flex-direction: column;
+  width: 200px;
   margin-right: 20px;
 };
 
@@ -26,6 +27,8 @@
 
 .CardTextSection {
   width: 100%;
+  color: $theme-blue;
+  padding-left: 10px;
   height: 100%;
 }
 
@@ -35,7 +38,7 @@
     padding: 10px;
     margin-top: 15px;
     border: none;
-    background-color: #e74c3c;
+    background-color: $theme-blue;
     color: #fff;
     font-size: 1rem;
     cursor: pointer;

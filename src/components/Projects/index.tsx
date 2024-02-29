@@ -12,6 +12,7 @@ const Projects = () => {
                 {bannerElements.map((element: BannerButtons) => (
                     <Card 
                         title={element.title}
+                        url={element.url}
                         key={element.id}
                     />
                 ))}

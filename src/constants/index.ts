@@ -22,7 +22,6 @@ export const bannerElements: BannerButtons[] = [
     id: 0,
     title: "Scale GameJam",
     url: "https://github.com/0xSense/Scale"
-
   },
   {
     id: 1,

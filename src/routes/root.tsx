@@ -3,6 +3,7 @@ import AboutMe from '../components/AboutMe';
 import Resume from '../components/Resume';
 import Projects from '../components/Projects';
 import { Outlet } from 'react-router-dom';
+import React from 'react';
 import './root.scss';
 
 export default function Root() {
@@ -12,8 +13,8 @@ export default function Root() {
         <Banner />
         <div className={"CenterComponent"}>
           <AboutMe />
-          <Resume />
           <Projects />
+          <Resume />
         </div>
         {/* <Footer /> */}
       </div>

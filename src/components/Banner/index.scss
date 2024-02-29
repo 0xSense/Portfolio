@@ -1,34 +1,29 @@
 @import '../../style/style.scss';
 
 .BannerWrapper {
-  color: $theme-white;
+  color: $theme-blue;
   background-color: $main-theme-color;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 40vh;
-}
-
-.TopBar {
-  background: linear-gradient(180deg, rgba(19, 19, 19, 0.719), rgba(19, 19, 19, 0.719), transparent);
-  color: green($color: #000000);
-  height: 20%;
-  position: sticky;
-  padding-left: 10px;
+  padding: 20px;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: row;
+  border-bottom: 1px solid white;
 }
 
 .ParentOfBannerElements {
   color: $theme-grey;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .DeveloperName {
   font-size: 3rem;
+  font-weight: bold;
   margin-bottom: 10px;
 }
 
@@ -42,20 +37,21 @@
   margin-bottom: 30px;
 }
 
-.Animation {
-  width: 50px;
-  height: 3px;
-  background-color: $theme-white;
-  margin: 40% auto;
-  animation: stretch 1s infinite alternate;
+.SectionWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  gap: 10px;
+  padding-right: 25px;
 }
 
-@keyframes stretch {
-  0% {
-    width: 50px;
+@media (max-width: 768px) {
+  .BannerWrapper {
+    flex-direction: row;
+    text-align: center;
   }
 
-  100% {
-    width: 100px;
+  .SectionWrapper {
+    margin-top: 10px;
   }
 }
